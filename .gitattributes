@@ -1,4 +1,4 @@
-*.css	text
+*.css	binary
 *.js	text
 *.html	text
 *.png	binary
