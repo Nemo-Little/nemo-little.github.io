@@ -1,0 +1,6 @@
+*.css	text
+*.js	text
+*.html	text
+*.png	binary
+*.gif	binary
+*.jpg	binary
