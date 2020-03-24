@@ -1,2 +1,2 @@
 # nemo-little.github.io
-Portfolio Web
+Hi. This is a portfolio of personal web work. Please visit if you are interested.
