@@ -1,0 +1,14 @@
+{
+	"name":"Kevin Portfolio",
+	"short_name":"Kevin Portfolio",
+	"icons": [
+		{"src":"https://res.cloudinary.com/uisaw/image/upload/v1585054243/portfolio/icon_128.png","sizes":"128x128","type":"image/png"},
+		{"src":"https://res.cloudinary.com/uisaw/image/upload/v1585054243/portfolio/icon_144.png","sizes":"144x144","type":"image/png"},
+		{"src":"https://res.cloudinary.com/uisaw/image/upload/v1585054243/portfolio/icon_152.png","sizes":"152x152","type":"image/png"},
+		{"src":"https://res.cloudinary.com/uisaw/image/upload/v1585054243/portfolio/icon_192.png","sizes":"192x192","type":"image/png"}
+	],
+	"start_url":"./index.html",
+	"display":"standalone",
+	"background_color":"#FFFFFF",
+	"theme_color":"#FFFFFF"
+}
