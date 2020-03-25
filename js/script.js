@@ -184,7 +184,7 @@
 													jdata.push({
 														'src' : 'https://res.cloudinary.com/uisaw/image/upload/v' + obj.ver + '/portfolio/' + cls + '/' + num + '.jpg',
 														'thumb' : 'https://res.cloudinary.com/uisaw/image/upload/v' + obj.ver + '/portfolio/' + cls + '/' + num + '.jpg',
-														'subHtml' : '<h4>' + obj.year + ' ' + obj.title.replace('<br />',' ') + '</h4><p>' + obj.des + '</p>'
+														'subHtml' : '<h4>' + obj.title.replace('<br />',' ') + ' (' + obj.year + ')</h4><p>' + obj.des + '</p>'
 													});
 												}
 												$("html").addClass("hide");
