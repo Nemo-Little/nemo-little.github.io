@@ -101,7 +101,6 @@
 						},
 						success : function(data){
 							if (typeof data == "object"){
-								console.log('- info.json success load - ');
 								let sc = data;
 								let code = new Array();
 								code[0] = "<span class=\"var-hl\">var</span> <span class=\"object-hl\">Title</span> <span class=\"equal-hl\">=</span> <span class=\"value-hl\">\"Hello World\"</span>;";
@@ -116,24 +115,21 @@
 								code[9] = "\t<span class=\"property-hl\">race</span><span class=\"equal-hl\">:</span><span class=\"value-hl\">'Human'</span>,";
 								code[10] = "\t<span class=\"property-hl\">skill</span><span class=\"equal-hl\">:</span>[<span class=\"value-hl\">'PHP'</span>,<span class=\"value-hl\">'ASP'</span>,<span class=\"value-hl\">'Javascript'</span>,<span class=\"value-hl\">'HTML'</span>,<span class=\"value-hl\">'CSS'</span>,<span class=\"value-hl\">'SQL'</span>,<span class=\"value-hl\">'Etc..'</span>];";
 								code[11] = "};<br />";
-								code[12]= "<span class=\"ready-hl\">Kevin, are you ready?</span> <span class=\"ok-hl\">OK!</span>";
-								console.log('- code array ready -');
+								code[12]= "<span class=\"ready-hl\">Are you ready for the project?</span> <span class=\"ok-hl\">OK!</span>";
 
 								$.getScript("https://cdn.jsdelivr.net/mojs/latest/mo.min.js",function(){
 									let moTimeline,
 									moburst1 = new mojs.Burst({parent:$(".fireworks")[0],count:6,left:'0%',top:'40%',radius:{0:60},children:{fill:['#988ADE','#DE8AA0','#8AAEDE','#8ADEAD','#DEC58A','#8AD1DE'],duration:1300,easing:mojs.easing.bezier(0.1,1,0.3,1)}}),
 									moburst2 = new mojs.Burst({parent:$(".fireworks")[0],left:'90%',top:'20%',count:14,radius:{0:120},children:{fill:['#988ADE','#DE8AA0','#8AAEDE','#8ADEAD','#DEC58A','#8AD1DE'],duration:1600,delay:100,easing:mojs.easing.bezier(0.1,1,0.3,1)}}),
 									moburst3 = new mojs.Burst({parent:$(".fireworks")[0],left:'70%',top:'70%',count:8,radius:{0:90},children:{fill:['#988ADE','#DE8AA0','#8AAEDE','#8ADEAD','#DEC58A','#8AD1DE'],duration:1500,delay:200,easing:mojs.easing.bezier(0.1,1,0.3,1)}}),
-									moburst4 = new mojs.Burst({parent: $(".fireworks")[0],left:'20%',top:'80%',count:14,radius:{0:60},children:{fill:['#988ADE','#DE8AA0','#8AAEDE','#8ADEAD','#DEC58A','#8AD1DE'],duration:2000,delay:300,easing:mojs.easing.bezier(0.1,1,0.3,1)}}),
+									moburst4 = new mojs.Burst({parent:$(".fireworks")[0],left:'20%',top:'80%',count:14,radius:{0:60},children:{fill:['#988ADE','#DE8AA0','#8AAEDE','#8ADEAD','#DEC58A','#8AD1DE'],duration:2000,delay:300,easing:mojs.easing.bezier(0.1,1,0.3,1)}}),
 									moburst5 = new mojs.Burst({parent:$(".fireworks")[0],count:12,left:'80%',top:'50%',radius:{0:60},children:{fill:['#988ADE','#DE8AA0','#8AAEDE','#8ADEAD','#DEC58A','#8AD1DE'],duration:1400,delay:400,easing:mojs.easing.bezier(0.1,1,0.3,1)}});									
 
 									$("body > div").remove(); //mojs bug
 									moTimeline = new mojs.Timeline();
 									moTimeline.add(moburst1, moburst2, moburst3, moburst4, moburst5);
-									console.log('- mojs ready -');
 
 									if ($(".svg-wrap > #wmap").length){
-										console.log('- start -');
 										$("body").removeClass("hide").addClass("ready");
 										ani();
 										code.typeWriter($(".code")[0]);
@@ -215,10 +211,8 @@
 							}
 						}
 					});
-
 				}
 			}
 		});
-
 	});
 })(window.jQuery);
