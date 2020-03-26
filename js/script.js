@@ -47,6 +47,9 @@
 	}
 
 	$(function(){
+		//continue position
+		$("section").eq(0).css({"height":window.innerHeight+'px'});
+		$(".cbox").css("height",window.innerHeight+'px');
 		let ani = function(){
 			let pos = $("html").scrollTop(),
 			one = ($(window).width() > 920)? ($("section:eq(1) > .one").offset().top - ($("section:eq(1) > .one").height() / 2)) : ($(window).height() / 4),
