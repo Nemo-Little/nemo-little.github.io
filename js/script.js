@@ -52,10 +52,10 @@
 		$(".cbox").css("height",window.innerHeight+'px');
 		let ani = function(){
 			let pos = $("html").scrollTop(),
-			one = ($(window).width() > 920)? ($("section:eq(1) > .one").offset().top - ($("section:eq(1) > .one").height() / 2)) : ($(window).height() / 4),
-			two = ($(window).width() > 920)? ($("section:eq(1) > .two").offset().top - ($("section:eq(1) > .two").height() / 2)) : ($(window).height() / 2),
+			one = ($(window).width() > 920)? (window.innerHeight / 2) : (window.innerHeight / 4),
+			two = ($(window).width() > 920)? (window.innerHeight / 2 ) : (window.innerHeight),
 			three = $("section:eq(2) > .content").offset().top - ($(window).height() / 2);
-			if (pos < ($("section:eq(1) > .one").offset().top)){
+			if (pos < one){
 				$(".stop").css({"display":"none"});
 			}else {
 				$(".stop").css({"display":"block"});
