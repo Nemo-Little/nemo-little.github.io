@@ -149,7 +149,7 @@
 										let svg = new Walkway({
 											selector: '#wmap',
 											easing: 'easeInOutQuint',
-											duration: 2000,
+											duration: 3500,
 											easing: function (t) {
 												return t * t;
 											}
