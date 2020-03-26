@@ -42,7 +42,7 @@ section > .part h1 {font-size:6vmax; font-weight:normal; text-align:left;}
 section > .part h4 {font-size:24px; color:#999999; font-weight:normal; text-align:left;}
 section > .part.one p {line-height:36px;}
 section > .part.two {background-color:#3a3e47; text-align:left;}
-section > .part.two > .content > .exp {padding-top:14px;  width:100%; box-sizing:border-box;}
+section > .part.two > .content > .exp {padding-top:14px;  width:100%; text-align:justify; box-sizing:border-box;}
 section > .part.two .item {float:left; width:calc(50% - 10px);  box-sizing:border-box; background-color:rgba(0,0,0,.3); padding:10px 10px 20px 10px; display:inline-block; vertical-align:top; margin:5px 10px 5px 0px; border-radius:15px;}
 section > .part.two .item:hover {background-color:rgba(0,0,0,.5); transition-duration:0.8s;}
 section > .part.two .item > .title {font-size:18px; margin-bottom:.5em;}
@@ -128,7 +128,7 @@ body > .loader > .text > span:nth-child(7) {filter: blur(0px); animation: blur-t
 	section > .part h1 {text-align:center;}
 	section > .part h4 {text-align:center;}
 	section > .part i {font-size:14px;}
-	section > .part.one > .content > .exp {padding-left:15vw; padding-right:15vw; text-align:center; font-size:13px;}
+	section > .part.one > .content > .exp {padding-left:15vw; padding-right:15vw; font-size:13px;}
 	section > .part.two > .content > .exp {text-align:center; font-size:13px;}
 	section > .part.two .item {float:none; width:calc(35% - 10px);}
 	section > .part.two .item:last-child {width:calc(70% - 10px); margin-right:10px;}
