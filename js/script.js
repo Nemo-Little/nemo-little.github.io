@@ -47,13 +47,19 @@
 	}
 
 	$(function(){
-		//continue position
-		$("section").eq(0).css({"height":window.innerHeight+'px'});
-		$(".cbox").css("height",window.innerHeight+'px');
+		let fpage = function(){
+			if (window.innerHeight > 475){
+				$("section").eq(0).css({"height":window.innerHeight+'px'});
+				$(".cbox").css("height",window.innerHeight+'px');
+			}else {
+				$("section").eq(0).css({"height":'475px'});
+				$(".cbox").css("height",'475px');
+			}
+		}
 		let ani = function(){
 			let pos = $("html").scrollTop(),
-			one = ($(window).width() > 920)? (window.innerHeight / 2) : (window.innerHeight / 4),
-			two = ($(window).width() > 920)? (window.innerHeight / 2 ) : (window.innerHeight),
+			one = ($(window).width() >= 904)? (window.innerHeight / 2) : (window.innerHeight / 4),
+			two = ($(window).width() >= 904)? (window.innerHeight / 2) : (window.innerHeight),
 			three = $("section:eq(2) > .content").offset().top - ($(window).height() / 2);
 			if (pos < one){
 				$(".stop").css({"display":"none"});
@@ -73,6 +79,7 @@
 			}
 		};
 		$(window).scroll(ani);
+		$(window).resize(fpage);
 
 		$(".stop").mousedown(function(){
 			$("html").animate({
