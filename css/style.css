@@ -128,6 +128,7 @@ body > .loader > .text > span:nth-child(7) {filter: blur(0px); animation: blur-t
 	section > .part h1 {text-align:center;}
 	section > .part h4 {text-align:center;}
 	section > .part i {font-size:14px;}
+	section > .part .item p {padding-left:0px;}
 	section > .part.one > .content > .exp {padding-left:15vw; padding-right:15vw; font-size:13px;}
 	section > .part.two > .content > .exp {text-align:center; font-size:13px;}
 	section > .part.two .item {float:none; width:calc(35% - 10px);}
