@@ -149,10 +149,7 @@
 										let map = new Walkway({
 											selector: '#wmap',
 											easing: 'easeInOutQuint',
-											duration: 3500,
-											easing: function (t) {
-												return t * t;
-											}
+											duration: 3500
 										}).draw();
 
 										$.when($(".continue").animate({
