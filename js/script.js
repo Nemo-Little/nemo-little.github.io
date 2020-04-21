@@ -146,7 +146,7 @@
 										moTimeline.replay();
 
 										$(".svg-wrap").css("visibility","visible");
-										let svg = new Walkway({
+										let map = new Walkway({
 											selector: '#wmap',
 											easing: 'easeInOutQuint',
 											duration: 3500,
