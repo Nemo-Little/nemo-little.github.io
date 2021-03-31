@@ -119,8 +119,8 @@
 								code[3] = "\t<span class=\"property-hl\">'Object'</span><span class=\"equal-hl\">:</span><span class=\"value-hl\">'Fun & Enjoy & Reward</span> <i class=\"fa fa-music c2\"></i><span class=\"value-hl\">'</span>,";
 								code[4] = "\t<span class=\"property-hl\">'Process'</span><span class=\"equal-hl\">:</span><span class=\"value-hl\">'SMART</span> <i class=\"fa fa-lightbulb-o c1\"></i><span class=\"value-hl\">'</span>";
 								code[5] = "};";
-								code[6] = "<span class=\"var-hl\">var</span> <span class=\"object-hl\">Kevin</span> <span class=\"equal-hl\">=</span> {";
-								code[7] = "\t<span class=\"property-hl\">nick</span><span class=\"equal-hl\">:</span><span class=\"value-hl\">'Rubber band'</span>,";
+								code[6] = "<span class=\"var-hl\">var</span> <span class=\"object-hl\">Neoul</span> <span class=\"equal-hl\">=</span> {";
+								code[7] = "\t<span class=\"property-hl\">nick</span><span class=\"equal-hl\">:</span><span class=\"value-hl\">'Neoul'</span>,";
 								code[8] = "\t<span class=\"property-hl\">class</span><span class=\"equal-hl\">:</span><span class=\"value-hl\">'Cleric'</span>,";
 								code[9] = "\t<span class=\"property-hl\">race</span><span class=\"equal-hl\">:</span><span class=\"value-hl\">'Human'</span>,";
 								code[10] = "\t<span class=\"property-hl\">skill</span><span class=\"equal-hl\">:</span>[<span class=\"value-hl\">'PHP'</span>,<span class=\"value-hl\">'ASP'</span>,<span class=\"value-hl\">'Javascript'</span>,<span class=\"value-hl\">'HTML'</span>,<span class=\"value-hl\">'CSS'</span>,<span class=\"value-hl\">'SQL'</span>,<span class=\"value-hl\">'Etc..'</span>];";
