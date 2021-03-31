@@ -46,6 +46,7 @@ section > .part.two > .content > .exp {padding-top:14px;  width:100%; text-align
 section > .part.two .item {float:left; width:calc(50% - 10px);  box-sizing:border-box; background-color:rgba(0,0,0,.3); padding:10px 10px 20px 10px; display:inline-block; vertical-align:top; margin:5px 10px 5px 0px; border-radius:15px;}
 section > .part.two .item:hover {background-color:rgba(0,0,0,.5); transition-duration:0.8s;}
 section > .part.two .item > .title {font-size:18px; margin-bottom:.5em;}
+section > .part.two .item:first-child,
 section > .part.two .item:last-child {clear:both; width:calc(100% - 10px); margin:5px 0px;}
 section > .content {width:100%; box-sizing:border-box; padding:5vw; overflow:hidden;}
 section > .content > h4 {transform:scale(0);}
