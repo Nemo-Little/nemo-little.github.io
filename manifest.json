@@ -1,6 +1,6 @@
 {
-	"name":"Kevin Portfolio",
-	"short_name":"Kevin Portfolio",
+	"name":"Neoul Portfolio",
+	"short_name":"Neoul Portfolio",
 	"icons": [
 		{"src":"https://res.cloudinary.com/uisaw/image/upload/v1585054243/portfolio/icon_128.png","sizes":"128x128","type":"image/png"},
 		{"src":"https://res.cloudinary.com/uisaw/image/upload/v1585054243/portfolio/icon_144.png","sizes":"144x144","type":"image/png"},
